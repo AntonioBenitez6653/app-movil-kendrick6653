@@ -767,14 +767,11 @@ h1 {
                 margin: 0;
                 font-family: var(--normal-text);
             }
-        }
 
-        .ubication {
             span {
-                font-size: 1rem;
+                font-size: clamp(0.6rem, 0.392rem + 0.757vw, 1.3rem);
             }
         }
-
     }
 
     .partners {
@@ -999,7 +996,7 @@ footer {
             flex: none;
             width: 100%;
             padding: 4rem;
-            
+
         }
 
         .partners {
@@ -1137,7 +1134,7 @@ footer {
 
         .others-albums {
             flex-direction: column;
-            
+
             padding: 6rem 1.5rem;
 
             .albums {
@@ -1209,7 +1206,7 @@ footer {
                 img {
                     display: flex;
                     padding-right: 5rem;
-                    
+
                 }
             }
         }
